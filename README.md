@@ -1,6 +1,6 @@
 # Site Summary
-## Inkwell Stationers
-__Concept:__ Inkwell Stationers is a boutique stationery shop that celebrates the art of writing. They curate a range of elegant pens, journals, and paper goods for those who appreciate the written word.
+## InkWell Stationers
+__Concept:__ InkWell Stationers is a boutique stationery shop that celebrates the art of writing. They curate a range of elegant pens, journals, and paper goods for those who appreciate the written word.
 
 # Technical stuff
 
