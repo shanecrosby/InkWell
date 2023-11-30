@@ -1,4 +1,4 @@
-.u-section-1 {
+ .u-section-1 {
   background-image: linear-gradient(0deg, rgba(252,247,240,0.5), rgba(252,247,240,0.5)), url("images/punta-y-pincel-brushlettering-V3V3WC6W7pU-unsplash.jpg");
   background-position: 50% 50%;
 }
@@ -184,7 +184,7 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 {
+   .u-section-2 {
     min-height: 108px;
   }
 
@@ -275,7 +275,7 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-2 {
+   .u-section-2 {
     min-height: 158px;
   }
 
@@ -338,7 +338,7 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-2 {
+   .u-section-2 {
     min-height: 373px;
   }
 
@@ -393,7 +393,7 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-2 {
+   .u-section-2 {
     min-height: 143px;
   }
 
@@ -930,7 +930,7 @@
   background-image: none;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 1;
+  --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   animation-timing-function: ease-in-out;
