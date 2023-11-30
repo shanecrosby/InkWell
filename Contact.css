@@ -7,11 +7,23 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 100px 808px 0 32px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  animation-timing-function: ease-in-out;
+  margin: 100px 780px 0 60px;
 }
 
 .u-section-1 .u-text-2 {
-  margin: 20px 808px 0 32px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  animation-timing-function: ease-in-out;
+  margin: 20px 780px 0 60px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -20,6 +32,12 @@
 
 .u-section-1 .u-layout-cell-1 {
   min-height: 508px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  animation-timing-function: ease-in-out;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -108,6 +126,13 @@
 .u-section-1 .u-image-1 {
   min-height: 500px;
   background-image: url("images/crosbyshane_A_smiling_young_woman_writing_a_letter_at_her_desk._03b6cab0-c5ac-4e35-b76b-b324038d7827.png");
+  background-position: 50% 50%;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  animation-timing-function: ease-in-out;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -323,14 +348,20 @@
 }
 
 .u-section-2 .u-text-1 {
-  font-weight: 700;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  animation-timing-function: ease-in-out;
   margin: 100px auto 0;
 }
 
 .u-section-2 .u-form-1 {
   height: 472px;
   width: 850px;
-  margin: 29px auto 100px;
+  --checkbox-checked-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fcf7f0' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+  margin: 30px auto 60px;
 }
 
 .u-section-2 .u-form-group-1 {
@@ -382,6 +413,12 @@
   min-height: 431px;
   background-image: url("images/brett-jordan-NBMdqEviK_c-unsplashLarge.jpg");
   background-position: 50% 50%;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  animation-timing-function: ease-in-out;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -390,6 +427,12 @@
 
 .u-section-3 .u-layout-cell-2 {
   min-height: 431px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  animation-timing-function: ease-in-out;
 }
 
 .u-section-3 .u-container-layout-2 {

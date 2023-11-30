@@ -42850,27 +42850,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1rem;
 }
 
-.u-header .u-nav-popup-1 {
-  min-height: 252px;
-  background-image: none;
-  left: -27px;
-  right: auto;
-  padding: 20px;
-}
-
 .u-header .u-nav-2 {
-  margin: 0 -1px 0 auto;
-}
-
-.u-header .u-nav-3 {
-  background-image: none;
-}
-
-.u-header .u-nav-4 {
-  background-image: none;
-}
-
-.u-header .u-nav-5 {
   font-size: 1rem;
   letter-spacing: 0px;
 }
@@ -42887,14 +42867,6 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: calc(((100% - 1024px) / 2));
   }
 
-  .u-header .u-nav-popup-1 {
-    left: -451px;
-  }
-
-  .u-header .u-nav-2 {
-    margin-right: 0;
-  }
-
   .u-header .u-image-2 {
     margin-top: -34px;
     margin-left: calc(((100% - 1024px) / 2));
@@ -42903,10 +42875,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 991px) {
   .u-header .u-menu-1 {
     margin-right: calc(((100% - 720px) / 2));
-  }
-
-  .u-header .u-nav-popup-1 {
-    left: 0;
   }
 
   .u-header .u-image-2 {
@@ -43081,13 +43049,9 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 60px auto 0;
 }
 
-.u-footer .u-text-13 {
-  margin: 58px auto 0 69px;
-}
-
 .u-footer .u-list-1 {
   width: 427px;
-  margin: -40px calc(((100% - 1440px) / 2)) 55px auto;
+  margin: 50px calc(((100% - 1440px) / 2)) 0 auto;
 }
 
 .u-footer .u-repeater-1 {
@@ -43100,7 +43064,7 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 10px;
 }
 
-.u-footer .u-text-14 {
+.u-footer .u-text-13 {
   text-decoration: underline !important;
   margin: 0 auto;
 }
@@ -43109,7 +43073,7 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 10px;
 }
 
-.u-footer .u-text-15 {
+.u-footer .u-text-14 {
   text-decoration: underline !important;
   margin: 0 auto;
 }
@@ -43118,13 +43082,17 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 10px;
 }
 
-.u-footer .u-text-16 {
+.u-footer .u-text-15 {
   text-decoration: underline !important;
   margin: 0 auto;
 }
+
+.u-footer .u-text-16 {
+  margin: -40px auto 60px calc(((100% - 1440px) / 2));
+}
 @media (max-width: 1199px) {
    .u-footer {
-    min-height: 592px;
+    min-height: 622px;
   }
 
   .u-footer .u-layout-wrap-1 {
@@ -43154,18 +43122,17 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: 20px;
   }
 
-  .u-footer .u-text-13 {
-    margin-top: 20px;
-    margin-left: 69px;
-  }
-
   .u-footer .u-list-1 {
     margin-right: calc(((100% - 1024px) / 2));
-    margin-bottom: -167px;
   }
 
   .u-footer .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 3.33333px));
+  }
+
+  .u-footer .u-text-16 {
+    width: auto;
+    margin-left: calc(((100% - 1024px) / 2));
   }
 }
 @media (max-width: 991px) {
@@ -43194,22 +43161,20 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 720px;
   }
 
-  .u-footer .u-text-13 {
-    width: auto;
-    margin-left: auto;
-  }
-
   .u-footer .u-list-1 {
     width: 643px;
-    margin-top: 20px;
+    margin-top: 72px;
     margin-right: auto;
-    margin-bottom: -41px;
   }
 
   .u-footer .u-repeater-1 {
     min-height: 50px;
     grid-template-columns: calc(33.3333% - 3.33333px) calc(33.3333% - 3.33333px) calc(33.3333% - 3.33333px);
-    grid-auto-columns: calc(33.3333% - 3.33333px);
+  }
+
+  .u-footer .u-text-16 {
+    margin-top: -102px;
+    margin-left: auto;
   }
 }
 @media (max-width: 767px) {
@@ -43245,13 +43210,16 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-list-1 {
     width: 540px;
-    margin-bottom: -33px;
+    margin-top: 68px;
   }
 
   .u-footer .u-repeater-1 {
     min-height: 132px;
-    grid-template-columns: repeat(2, calc(50% - 2.4999975px));
-    grid-auto-columns: calc(50% - 2.4999975px);
+    grid-template-columns: calc(50% - 2.5px) calc(50% - 2.5px);
+  }
+
+  .u-footer .u-text-16 {
+    margin-top: -180px;
   }
 }
 @media (max-width: 575px) {
@@ -43272,19 +43240,18 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 340px;
   }
 
-  .u-footer .u-text-13 {
-    margin-left: 43px;
-    margin-right: 43px;
-  }
-
   .u-footer .u-list-1 {
     width: 340px;
-    margin-bottom: -233px;
   }
 
   .u-footer .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: calc(100% - 0px);
+  }
+
+  .u-footer .u-text-16 {
+    margin-top: -193px;
+    margin-left: 43px;
+    margin-right: 43px;
   }
 }
 
